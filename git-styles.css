@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;  
+	/* background-image: url("http://www.srombauts.fr/wp-content/uploads/Git-logo.png");*/
+    background-repeat: no-repeat;
+	color: lightblue;
+}
+
+h1 {
+    color: #EE7600;
+    margin-left: 25px;
+	font-size: 40pt;
+}
+
+p {
+ font-weight: bold;
+ font-size: 30pt;
+ margin-left: 25px;
+ line-height: 600px;
+ }

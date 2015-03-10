@@ -1,0 +1,49 @@
+1. Install Git: http://git-scm.com/downloads
+
+2. Tell Git who you are (Define the author name to be used for all commits in the current repository.) 
+- git config --global user.name <name>
+- git config --global user.email <email>
+
+3. Create a local repository to track
+- git init <directory>
+- git status
+(make change)
+- git status (again)
+- git add
+- git commit -m "message"
+- git log
+
+
+4. Cloning a GitHub repository
+- Sign into GitHub with your username/password: github.com
+- Go to the repo you have access to...
+- copy the clone URL (under Settings on the right hand side of the page)
+- git clone <repo> <directory>
+- git log (to see what is going on)
+(make changes - color css chang)
+- git status
+- git add <file>
+- git commit -m 
+- git push
+- git pull (show status message)
+- git fetch (grab code from a remote, but do not add it to your working repo)
+
+5. Feature branch
+- Create a new branch to work off of
+- git branch <branch>
+- (to delete a branch) git branch -d <branch>
+(make changes - css background changes)
+- git status 
+- git add <file>
+- git commit -m "message"
+- git push origin <branch>
+- Go to GitHub to check out new branch. Click and compare
+- Do a pull request to request a merge of the changes
+- Once pull request is approved, you can merge the changes (and add a comment) 
+
+Remote Repos - Origin - The Main Remote Repo for the project 
+
+Helpful Resources: 
+https://www.atlassian.com/git
+http://git-scm.com/doc
+
